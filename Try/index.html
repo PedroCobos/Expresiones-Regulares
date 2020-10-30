@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORMULARIO CURP E ISSN</title>
+</head>
+<body>
+  <h1>Formulario</h1>
+  <form action="show.html" onsubmit="return checkInputs()" method="get">
+    <p>INGRESE SU CURP</p>
+    <label for="">CURP</label>
+    <input type="text" placeholder = "GOFE970528HQRNLD02" id="curp">
+    <br>
+    <p>INGRESE ISSN (International Standard Serial Number / Número Internacional Normalizado de Publicaciones 
+      Seriadas). .</p>
+    <label for="">ISSN</label>
+    <input type="text" placeholder="####-####" id="issn">
+    <br>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
